@@ -12,8 +12,8 @@ from pytgcalls.types.input_stream import VideoParameters
 from pyrogram import Client, filters
 from pyrogram.types import Message
 from config import API_ID, API_HASH, SESSION_NAME, BOT_USERNAME
-from helpers.decorators import authorized_users_only
-from helpers.filters import command
+from helper.decorators import authorized_users_only
+from helper.filters import command
 from youtube_dl import YoutubeDL
 from youtube_dl.utils import ExtractorError
 
